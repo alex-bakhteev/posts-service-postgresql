@@ -25,7 +25,7 @@ services:
     environment:
       POSTGRES_DB: p2p-helper
       POSTGRES_USER: postgres
-      POSTGRES_PASS: 12345
+      POSTGRES_PASS: root
       PG_DATA: /var/lib/postgresql/data
     ports:
       - 5432:5432
